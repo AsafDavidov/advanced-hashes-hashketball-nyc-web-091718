@@ -170,13 +170,13 @@ def team_names()
   end
   ret_team_names
 end
-def player_numbers(team)
+=begin def player_numbers(team)
   ret_player_nums
   game_hash.each do |location,team_data|
     team_data.each do |attribute, data|
       if attribute == :team_name  data == team
         
-        
+=end      
 
 
 
