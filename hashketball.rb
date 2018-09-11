@@ -123,6 +123,11 @@ def num_points_scored(player_name)
       data_player.each do |p_attribute, p_data|
         if p_attribute == player_name
           tot_points = p_data[:points]
+        end
+      end
+    end
+  end
+  tot_points
 end
 
 
