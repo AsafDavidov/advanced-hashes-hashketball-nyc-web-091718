@@ -160,6 +160,8 @@ end
 end 
 =end
 def team_names()
+  ret_team_names = []
+  game_hash.each do |location
 end
 
 
