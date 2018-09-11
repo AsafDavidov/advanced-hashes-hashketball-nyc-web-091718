@@ -151,7 +151,7 @@ def team_colors(g_team_name)
   game_hash.each do |location, team_data|
     team_data.each do |attribute,data|
       if attribute[:team_name] == g_team_name
-         teamColors= attribute[:colors]
+         teamColors = attribute[:colors]
       end
     end
   end
