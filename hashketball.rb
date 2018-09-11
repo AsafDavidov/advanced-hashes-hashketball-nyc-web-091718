@@ -153,6 +153,7 @@ def team_colors(g_team_name)
         teamColors = team_data[:colors]
       end
     end
+  teamColors
 end  
 
 
