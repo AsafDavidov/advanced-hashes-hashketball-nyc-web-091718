@@ -149,12 +149,14 @@ end
 
 def team_colors(g_team_name)
   teamColors = []
+  correct_team = false
   game_hash.each do |location, team_data|
     team_data.each do |attribute, data|
-      if data == g_team_name
-         if attribute == :colors
-           teamColors = data
-          end
+      if attribute == :team_name && data == g_team_name
+        correct_team = true
+      end
+      if attribute == :colors && correct_team == true
+        teamColors = data
       end
     end
   end
