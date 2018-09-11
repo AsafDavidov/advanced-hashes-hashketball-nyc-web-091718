@@ -146,7 +146,7 @@ def shoe_size(player_name)
   end
   shoe_size
 end
-def team_colors(g_team_name)
+=begin def team_colors(g_team_name)
   teamColors = []
   game_hash.each do |location, team_data|
     team_data.each do |attribute,data|
@@ -158,6 +158,7 @@ def team_colors(g_team_name)
   end
   teamColors
 end 
+=end
 def team_names()
 end
 
