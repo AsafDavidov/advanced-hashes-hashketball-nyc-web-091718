@@ -179,7 +179,8 @@ begin def player_numbers(team)
   ret_player_nums = []
   game_hash.each do |location,team_data|
     team_data.each do |attribute, data|
-      if  && attribute == :players
+      if data==team
+        data
         
 end      
 
