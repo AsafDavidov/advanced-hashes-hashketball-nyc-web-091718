@@ -146,6 +146,9 @@ def shoe_size(player_name)
   end
   shoe_size
 end
+def team_colors(team_name)
+  teamColors = nil
+end  
 
 
 
