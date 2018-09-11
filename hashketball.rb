@@ -15,10 +15,10 @@ def game_hash
         :slam_dunks =>[1,	7,	15,	5,	1]
       }
     }
-    :away = {
+    :away => {
       :team_name => "Charlotte Hornets", 
       :colors => ["Turquoise", "Purple"]
-      :players = {
+      :players => {
         :number => [0, 30, 11, 1, 31],
         :shoe => [16, 14, 17, 19, 15],
         :points =>[22, 12, 17, 26, 19],
