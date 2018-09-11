@@ -157,6 +157,7 @@ def team_colors(g_team_name)
       end
       if attribute == :colors && correct_team == true
         teamColors = data
+        correct_team = false
       end
     end
   end
