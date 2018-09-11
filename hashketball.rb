@@ -176,10 +176,10 @@ def team_names()
   ret_team_names
 end
 begin def player_numbers(team)
-  ret_player_nums
+  ret_player_nums = []
   game_hash.each do |location,team_data|
     team_data.each do |attribute, data|
-      if attribute == :team_name
+      if  && attribute == :players
         
 end      
 
