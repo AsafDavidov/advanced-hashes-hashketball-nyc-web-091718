@@ -17,44 +17,44 @@ def game_hash
 
         },	
         "Reggie Evans"=> {
-          :number
-          :shoe
-          :points
-          :rebounds
-          :assists
-          :steals
-          :blocks
-          :slam_dunks
+          :number =>
+          :shoe =>
+          :points =>
+          :rebounds =>
+          :assists =>
+          :steals =>
+          :blocks =>
+          :slam_dunks =>
         } ,	
         "Brook Lopez"=> {
-          :number
-          :shoe
-          :points
-          :rebounds
-          :assists
-          :steals
-          :blocks
-          :slam_dunks
+          :number =>
+          :shoe =>
+          :points =>
+          :rebounds =>
+          :assists =>
+          :steals =>
+          :blocks =>
+          :slam_dunks =>
         } , 
         "Mason Plumlee"=> {
-          :number
-          :shoe
-          :points
-          :rebounds
-          :assists
-          :steals
-          :blocks
-          :slam_dunks
+          :number =>
+          :shoe =>
+          :points =>
+          :rebounds =>
+          :assists =>
+          :steals =>
+          :blocks =>
+          :slam_dunks =>
         } , 
         "Jason Terry" => {
-          :number
-          :shoe
-          :points
-          :rebounds
-          :assists
-          :steals
-          :blocks
-          :slam_dunks
+          :number =>
+          :shoe =>
+          :points =>
+          :rebounds =>
+          :assists =>
+          :steals =>
+          :blocks =>
+          :slam_dunks =>
         }
       }
     },
