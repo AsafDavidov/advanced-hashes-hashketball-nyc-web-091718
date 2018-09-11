@@ -6,6 +6,17 @@ def game_hash
       :colors => ["Black", "White"],
       :players => {
         "Alan Anderson" => {
+          :number =>
+          :shoe =>
+          :points =>
+          :rebounds =>
+          :assists =>
+          :steals =>
+          :blocks =>
+          :slam_dunks =>
+
+        },	
+        "Reggie Evans"=> {
           :number
           :shoe
           :points
@@ -14,19 +25,36 @@ def game_hash
           :steals
           :blocks
           :slam_dunks
-
-        },	
-        "Reggie Evans"=> {
-          
         } ,	
         "Brook Lopez"=> {
-          
+          :number
+          :shoe
+          :points
+          :rebounds
+          :assists
+          :steals
+          :blocks
+          :slam_dunks
         } , 
         "Mason Plumlee"=> {
-          
+          :number
+          :shoe
+          :points
+          :rebounds
+          :assists
+          :steals
+          :blocks
+          :slam_dunks
         } , 
         "Jason Terry" => {
-          
+          :number
+          :shoe
+          :points
+          :rebounds
+          :assists
+          :steals
+          :blocks
+          :slam_dunks
         }
       }
     },
