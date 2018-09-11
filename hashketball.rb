@@ -146,11 +146,11 @@ def shoe_size(player_name)
   end
   shoe_size
 end
-def team_colors(team_name)
+def team_colors(g_team_name)
   teamColors = nil
   game_hash.each do |location, team_data|
     team_data.each do |attribute, data|
-      
+      if :team_name == g_team_name
 end  
 
 
