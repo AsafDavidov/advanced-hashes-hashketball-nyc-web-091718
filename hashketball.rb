@@ -126,6 +126,7 @@ def num_points_scored(player_name)
               tot_points = p_data[:points]
             end
           end
+        end
       end
   end
   tot_points
